@@ -1,0 +1,103 @@
+/* .form{
+    font-family: 'Times New Roman', Times, serif;
+    
+    margin-top: 10%;
+    width: 50%;
+    margin-left: 40%;
+}
+
+input{
+    width: 100px;
+    height: 20px;
+    margin: 10px;
+    border: none;
+    background-color: rgb(255, 249, 167);
+}
+input[type='number']{
+    width: 40px;
+}
+.btn{
+    height: 40px;
+    width: 100px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(246, 221, 152);
+}
+p{
+    color: rgb(173, 120, 39);
+    font-weight: bold;
+} */
+
+
+ /* calci */
+ 
+.container{
+    background-color: rgb(43, 43, 43);
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    align-items:center;
+    justify-content: center;
+}
+
+.calculator{
+    background-color: coral;
+    
+}
+
+form input{
+    height: 50px;
+    width: 50px;
+    margin: 2px;
+    background-color: rgb(143, 143, 255);
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+form .display{
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+form .display input{
+    flex:1;
+    padding: 5px;
+    font-size: 32px;
+}
+
+/* stopwatch */
+
+.stopwatch{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid red;
+    background-color: black;
+    height: 100vh;
+    justify-content: center;
+}
+
+.display{
+   
+    color: rgb(255, 179, 0);
+    font-size: 65px;
+    font-family: monospace;
+    padding: 20px;
+}
+
+.controls button{
+    background-color: rgb(255, 178, 12);
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+    border:none;
+    margin:3px;
+    margin-top: 10px;
+   
+    
+}
